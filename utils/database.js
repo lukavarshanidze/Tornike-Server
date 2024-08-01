@@ -3,7 +3,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 
 const sequelize = new Sequelize('saqAgordzineba', 'root', 'mysqlserver', {
     dialect: 'mysql',
-    host: 'https://tornike-server.onrender.com',
+    host: 'localhost',
     port: '3306'
 })
 
