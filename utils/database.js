@@ -4,6 +4,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 const sequelize = new Sequelize('saqAgordzineba', 'root', 'mysqlserver', {
     dialect: 'mysql',
     host: '127.0.0.1',
+    port: '3306'
 })
 
 const Data = sequelize.define('Data', {
